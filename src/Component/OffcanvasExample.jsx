@@ -8,7 +8,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from '../assets/Logo.png';
-import { AiOutlineUser,AiOutlineShoppingCart } from 'react-icons/ai';
+import { AiOutlineUser, AiOutlineShoppingCart } from 'react-icons/ai';
+
 
 function OffcanvasExample() {
   const expand = 'lg'; // Set the desired expand value
@@ -23,7 +24,7 @@ function OffcanvasExample() {
         </Link>
         <Navbar.Toggle
           aria-controls={`offcanvasNavbar-expand-${expand}`}
-          style={{ backgroundColor: '#fff' }}
+          className="menu-icon" // Add the menu-icon class
         />
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}

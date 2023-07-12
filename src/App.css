@@ -361,6 +361,32 @@ section{
   padding-bottom: 2rem;
   padding-top: 1rem;
 }
+.menu-icon span {
+  background-color: white;
+  border: none;
+  outline: none !important; /* Add !important to override default styles */
+}
+
+.menu-icon .navbar-toggler-icon {
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  border: none;
+  outline: none !important; /* Add !important to override default styles */
+}
+
+.menu-icon button.navbar-toggler:focus,
+.menu-icon button.navbar-toggler:not(:disabled):hover {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler{
+  border: none;
+  outline: none;
+}
+
+
+
 
 
 @media (max-width:533px){
@@ -373,7 +399,7 @@ section{
     width: 80%;
 }
 .have {
-  padding-top: 2rem;
+  padding-top: 10px;
   width: 400.669px;
 }
 .one p {
@@ -384,7 +410,7 @@ section{
   letter-spacing: 0.817px;
 }
 .last-1 {
-  margin-top: 9rem;
+  margin-top: 16rem;
   background: rgba(222, 187, 72, 0.70);
   width: 100%;
   height: 15%;
@@ -422,16 +448,16 @@ section{
   letter-spacing: 1.345px;
 }
 .have {
-  padding-top: 2rem;
-  width: 330.669px;
+  padding-top: 10px;
+  width: 300.669px;
 }
 .have p {
   color: rgba(255, 255, 255, 0.65);
-  font-size: 9.804px;
+  font-size: 11.804px;
   font-weight: 400;
   line-height: 20.675px;
   letter-spacing: 0.686px;
-  width: 80%;
+  width: 100%;
 }
 .one {
   display: flex;
@@ -448,8 +474,8 @@ section{
     gap: 9px;
 }
 .have {
-  padding-top: 2rem;
-  width: 280.669px;
+  padding-top: 10px;
+  width: 270.669px;
 }
 .buy h1 {
   color: white;
@@ -459,7 +485,34 @@ section{
   letter-spacing: 1.345px;
 }
 .buy {
-  width: 250.669px;
+  width: 270.669px;
   padding-top: 5rem;
+}
+.have p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 9.804px;
+  font-weight: 400;
+  line-height: 20.675px;
+  letter-spacing: 0.686px;
+  width: 100%;
+}
+.section-1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: linear-gradient(rgba(7, 7, 7, 0.93),rgba(7, 7, 7, 0.93)), url(/src/assets/House.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.one p {
+  color: #252525;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 12.009px;
+  letter-spacing: 0.817px;
 }
 }
