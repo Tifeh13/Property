@@ -385,6 +385,29 @@ section{
   outline: none;
 }
 
+@media(max-width:1000px){
+  .contant {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 100px;
+}
+.contant-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #000;
+  height: auto;
+}
+.us {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 4rem;
+}
+}
+
 
 
 
@@ -436,6 +459,14 @@ section{
 }
 
 @media (max-width:438px){
+  .contant-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 1rem;
+}
   .buy {
     width: 307.669px;
     padding-top: 5rem;
@@ -459,11 +490,45 @@ section{
   letter-spacing: 0.686px;
   width: 100%;
 }
+.contant {
+  display: block;
+  width: 100%;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 80px;
+}
 .one {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 17px;
+}
+.more h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 32px;
+  font-style: normal;
+  line-height: 52.982px;
+  letter-spacing: 1.6px;
+}
+.phone p {
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 15.694px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.242px;
+}
+.us {
+  display: flex;
+  justify-content: start;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+.feedback h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 1.6px;
 }
 }
 @media (max-width:365px){
@@ -515,4 +580,51 @@ section{
   line-height: 12.009px;
   letter-spacing: 0.817px;
 }
+.feedback textarea {
+  outline: none;
+  height: 364px;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 20px;
+  background: rgba(206, 212, 233, 0.10);
+  color: #fff;
+  border: 1px solid rgba(206, 212, 233, 0.10);
+  font-size: 16px;
+  resize: none;
+}
+.feedback ::placeholder{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.88px;
+}
+.sendme {
+    justify-content: end;
+    display: flex;
+    padding-top: 1rem;
+    /* width: 138%; */
+}
+.contant {
+  display: block;
+  width: 100%;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 80px;
+}
+.us {
+  display: flex;
+  justify-content: start;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+.more h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 26px;
+  font-style: normal;
+  line-height: 52.982px;
+  letter-spacing: 1.6px;
+}
+
+
 }
