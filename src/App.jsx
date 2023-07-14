@@ -3,6 +3,7 @@ import Home from './Pages/Home';
 import Categories from './Pages/Categories';
 import './App.css'
 import Contant from './Pages/Contant';
+
 // import OffcanvasExample from './Component/OffcanvasExample';
 
 function App() {
