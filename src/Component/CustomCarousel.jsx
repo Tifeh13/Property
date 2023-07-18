@@ -1,10 +1,10 @@
 import React from 'react';
 import { Carousel as ResponsiveCarousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import house1 from '../assets/Rectangle 1.png';
 import house2 from '../assets/Rectangle 2.png';
 import house3 from '../assets/Rectangle 3.png';
+
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 function CustomCarousel() {
   return (
