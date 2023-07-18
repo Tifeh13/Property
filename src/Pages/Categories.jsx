@@ -6,7 +6,6 @@ import house3 from '../assets/Rectangle 3.png';
 import house4 from '../assets/Rectangle 4.png';
 import CustomCarousel from '../Component/CustomCarousel';
 import TifeCarousel from '../Component/TifeCarousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 function Categories() {
   return (
