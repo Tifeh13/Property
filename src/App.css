@@ -385,6 +385,51 @@ section{
   outline: none;
 }
 
+.phone-dream{
+  display: none;
+}
+
+@media(max-width:1386px){
+  .houses img {
+    width: 212.064px;
+    height: 200px;
+}
+.dream {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 19px;
+  width: 100%;
+  /* padding-top: 2rem; */
+}
+.up h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  padding-bottom: 1rem;
+}
+}
+
+@media(max-width:1186px){
+  .houses img {
+    width: 162.064px;
+    height: 167px;
+}
+}
+@media(max-width:1068px){
+  .dream-1 p {
+    width: 468px;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 1.47px;
+}
+}
+
 @media(max-width:1000px){
   .contant {
     display: grid;
@@ -407,10 +452,92 @@ section{
   padding-left: 4rem;
 }
 }
-
-
-
-
+@media(max-width:931px){
+  .dream {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 19px;
+    width: 100%;
+    flex-direction: column;
+    /* padding-top: 2rem; */
+}
+.dream-1{
+  width: 100%;
+}
+.dream-1 h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 1.6px;
+  text-align: center;
+}
+.dream-1 p {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 1.47px;
+  text-align: center;
+}
+.sell{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.houses img {
+  width: 325.064px;
+  height: 218px;
+}
+.up h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  padding-bottom: 1rem;
+}
+}
+@media (max-width:739px){
+  .houses img {
+    width: 265.064px;
+    height: 218px;
+}
+}
+@media (max-width:609px){
+  .houses img {
+    width: 227.064px;
+    height: 218px;
+}
+.sell-1 {
+  border-radius: 10px;
+  background: rgba(222, 187, 72, 0.70);
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  color: #1C1D1E;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 0.96px;
+  margin-top: 2rem;
+}
+.up h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  padding-bottom: 1rem;
+}
+}
 
 @media (max-width:533px){
   .have p {
@@ -455,6 +582,93 @@ section{
   align-items: center;
   gap: 10px;
   width: 90%;
+}
+}
+@media (max-width:523px){
+  .houses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding-top: 4rem;
+}
+.houses img {
+  width: 198.064px;
+  height: 189px;
+}
+}
+@media(max-width:501px){
+  .dream{
+    display: none;
+  }
+  .phone-dream{
+    display: block;
+  }
+  .carousel-2 {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.phone-dream-1 h1{
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px; /* 218.75% */
+  letter-spacing: 1.28px;
+}
+.phone-dream-1 p{
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+.sell-2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-direction: column;
+}
+.up h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  padding-bottom: 1rem;
+}
+}
+@media(max-width:461px){
+  .houses img {
+    width: 160.216px;
+    height: 158.983px;
+}
+.up h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  padding-bottom: 0rem;
+}
+.houses {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  padding-top: 2rem;
+  width: 100%;
+}
+.phone-dream-1 h1{
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 24px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px; /* 218.75% */
+  letter-spacing: 1.28px;
 }
 }
 
@@ -529,6 +743,19 @@ section{
   font-weight: 500;
   line-height: 70px;
   letter-spacing: 1.6px;
+}
+}
+@media(max-width:380px){
+  .houses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding-top: 2rem;
+    width: 100%;
+}
+.houses img {
+  width: 143.216px;
+  height: 128.983px;
 }
 }
 @media (max-width:365px){
@@ -625,6 +852,16 @@ section{
   line-height: 52.982px;
   letter-spacing: 1.6px;
 }
-
-
+}
+@media(max-width:350px){
+  .houses img {
+    width: 110.216px;
+    height: 90.983px;
+}
+.carousel-2 {
+  width: 101%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 }

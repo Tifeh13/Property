@@ -38,6 +38,29 @@ function Categories() {
                   <img src={house4} alt="" />
                 </div>
               </div>
+              <div className="phone-dream">
+                <div className="phone-dream-1">
+                <h1>Find Your Dream Home</h1>
+                  <p>
+                    Do you want to buy your dream home? Or sell your house to
+                    get your dream home? Here are categories to choose from.
+                  </p>
+                  <div className="houses">
+                  <img src={house1} alt="" />
+                  <img src={house2} alt="" />
+                  <img src={house3} alt="" />
+                  <img src={house4} alt="" />
+                  </div>
+                  <div className="sell-2">
+                    <button className="sell-1">
+                      Buy Now <HiOutlineArrowNarrowRight />
+                    </button>
+                    <button className="sell-1">
+                      Sell Now<HiOutlineArrowNarrowRight />
+                    </button>
+                  </div>
+                </div>
+              </div>
               <div className="carousel-1">
                 <div className="carousel-2">
                   <div className="carousel-3">
