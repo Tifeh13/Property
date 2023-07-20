@@ -20,10 +20,12 @@ function Contant() {
                             <div className="us">
                                 <div className="more">
                                     <h1>Contact Us</h1>
-                                    <div className="phone">
-                                        <div className="icons"><FiPhoneCall/></div>
-                                        <p>09162454362</p>
-                                    </div>
+                                    <Link to={`https://api.whatsapp.com/send?phone=09162484365&text=YOURMESSAGE`} className="link">
+                                        <div className="phone">
+                                            <div className="icons"><FiPhoneCall /></div> {/* Use the WhatsApp icon */}
+                                            <p>09162484365</p>
+                                        </div>
+                                    </Link>
                                     <Link to="mailTo:afolabibolu15@gmail.com" className='link'>
                                         <div className="phone">
                                             <div className="icons"><FaRegEnvelope/></div>
